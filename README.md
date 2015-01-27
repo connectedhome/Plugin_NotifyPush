@@ -27,9 +27,10 @@ And this plugin doesn't display any popup on the screen.
 2. Copy the localization files from %dir%\Example\android\values into your project android platform folder %dir%\platforms\android\res
 3. Copy the Images files from %dir%\Example\android\drawable into your project android platform folder %dir%\platforms\android\res
 3. Integrate the www folder, the code uses a few libraries that you can ignore make sure that you include
-```<script type="text/javascript" charset="utf-8" src="plugins/com.eh.plugins.PushPlugin/www/PushNotification.js"></script>
-```
+<script type="text/javascript" charset="utf-8" src="plugins/com.eh.plugins.PushPlugin/www/PushNotification.js"></script>
+```sh
 	Note: The logic is written in notification.js It just has a button and a div element. The only thing to make sure here are that subscribeNotification() is called when the switch is on and unsubscribeNotification() is called when the switch is off. And on subscribe you will get a hex registration id in the function onNotification() and this registration id will be used in the push_register method.
+```
 
 Below are the methods for installing this plugin automatically using command line tools. For additional info, take a look at the [Plugman Documentation](https://github.com/apache/cordova-plugman/blob/master/README.md) and [Cordova Plugin Specification](https://github.com/alunny/cordova-plugin-spec).
 
