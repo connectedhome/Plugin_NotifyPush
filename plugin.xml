@@ -16,7 +16,7 @@
 
 	<license>MIT</license>
 
-	<js-module src="www/PushNotification.js" name="PushNotification">
+	<js-module src="Example/www/PushNotification.js" name="PushNotification">
         <clobbers target="PushNotification" />
 	</js-module>
 
