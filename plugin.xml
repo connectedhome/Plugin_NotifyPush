@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads"
     id="com.eh.plugins.PushPlugin"
-    version="1.0.6">
+    version="1.0.7">
 
   <name>PushPlugin</name>
 	<author>connectedhome</author>
@@ -95,12 +95,6 @@
 
 		<source-file src="src/ios/AppDelegate+notification.m" />
 		<source-file src="src/ios/PushPlugin.m" />
-		<resource-file src='Example/ios/en.lproj' />
-		<resource-file src='Example/ios/da.lproj' />
-		<resource-file src='Example/ios/fr.lproj' />
-		<resource-file src='Example/ios/it.lproj' />
-		<resource-file src='Example/ios/nb.lproj' />
-		<resource-file src='Example/ios/sv.lproj' />
 		<header-file src="src/ios/AppDelegate+notification.h" />
 		<header-file src="src/ios/PushPlugin.h" />
 
